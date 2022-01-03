@@ -12,6 +12,8 @@ D(istro)P(ackage)M(anager) is meant for new linux users and/or distro hoppers.
 DPM is a wrapper for your distro's package manager, so you don't have to remenber 
 the syntax of each package manager. It is coded in Rust language, from a not Rust developer :) . 
 You just call DPM on any distro, and it executes the corresponding command for your package manager.
+Inspiration for this project was LTT linux challenge, the part that Linus tried to apt install in manjaro.
+Thanks Linus.
 	
 ## Installation
 To install DPM, go to releases and download the latest version. Then open a terminal and execute:
