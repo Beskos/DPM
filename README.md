@@ -21,7 +21,7 @@ To install DPM, go to releases and download the latest version. Then open a term
 ```
 $ cd ~/Downloads
 $ sudo cp dpm /usr/bin/dpm
-$ sudo chmod a+x dpm
+$ sudo chmod a+x /usr/bin/dpm
 ```
 That was it! Now You can use DPM from terminal just by its name.
 Be careful to download DPM only from trusted sources to avoid any potential unwanted behavior.
