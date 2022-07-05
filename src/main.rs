@@ -71,6 +71,15 @@ fn main() -> io::Result<()> {
                         current_pm.autoremove = String::from("-Scc");
                         current_pm.search = String::from("-Ss");},
 
+        "alpine" =>
+                        {current_pm.command = String::from("apk");
+                        current_pm.install = String::from("add");
+                        current_pm.remove = String::from("del");
+                        current_pm.refresh = String::from("update");
+                        current_pm.update = String::from("upgrade");
+                        current_pm.autoremove = String::from("cache clean");
+                        current_pm.search = String::from("search");},
+
         _ => current_pm.command = String::from("none")
     }
     
