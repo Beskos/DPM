@@ -12,8 +12,6 @@ D(istro)P(ackage)M(anager) is meant for new linux users and/or distro hoppers.
 DPM is a wrapper for your distro's package manager, so you don't have to remenber 
 the syntax of each package manager. It is coded in Rust language, from a not Rust developer :) . 
 You just call DPM on any distro, and it executes the corresponding command for your package manager.
-Inspiration for this project was LTT linux challenge, the part that Linus tried to apt install in manjaro.
-Thanks Linus.
 	
 ## Installation
 To install DPM, go to releases and download the latest version. Then open a terminal and execute:
@@ -21,7 +19,7 @@ To install DPM, go to releases and download the latest version. Then open a term
 ```
 $ cd ~/Downloads
 $ sudo cp dpm /usr/bin/dpm
-$ sudo chmod a+x /usr/bin/dpm
+$ sudo chmod a+x dpm
 ```
 That was it! Now You can use DPM from terminal just by its name.
 Be careful to download DPM only from trusted sources to avoid any potential unwanted behavior.
@@ -62,6 +60,7 @@ but that is not tested. Here is a list of tested and supported distributions:
 * EndeavourOS
 * Garuda
 * KDE Neon
+* Alpine
 
 DPM may be compatible with linux distributions that are not in the list. If so, please contact me to update the list.
 ## FAQ
